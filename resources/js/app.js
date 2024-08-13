@@ -1,4 +1,4 @@
-// import './bootstrap';
+import './bootstrap';
 // import { createApp } from 'vue';
 // import App from "./App.vue";
 
@@ -6,7 +6,7 @@
 
 require('./bootstrap');
 
-Vue.component('welcome', require('./components/Welcome.vue'));
+Vue.component('welcome', require('./components/bienvenue.vue'));
 
 const app = new Vue({
     el: '#app'
