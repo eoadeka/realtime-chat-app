@@ -4,8 +4,6 @@
 <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
@@ -21,7 +19,12 @@
    <div id="app">
         <h1>Chatroom</h1>
         <bienvenue></bienvenue>
+        <!-- <chat-message></chat-message> -->
+        <chat-log :messages="messages"></chat-log>
+        <chat-composer v-on:messagesent="addMessage"></chat-composer>
    </div>
    <script src="js/app.js" charset="utf-8"></script>
+   <script src="https://unpkg.com/vue@3"></script>
+
 </body>
 </html>
