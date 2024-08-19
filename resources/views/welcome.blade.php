@@ -18,7 +18,9 @@
         @vite(['resources/js/app.js'])
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <div id="app"></div>
+        <div id="app">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum quo et repellat, nostrum eligendi maxime. Deserunt nemo natus, fugit ex, at consequuntur repudiandae accusamus assumenda eveniet illum, ad praesentium ea?</p>
+        </div>
         <!-- <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
             <img id="background" class="absolute -left-20 top-0 max-w-[877px]" src="https://laravel.com/assets/img/welcome/background.svg" />
             <div class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
